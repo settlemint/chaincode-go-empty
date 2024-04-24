@@ -1,6 +1,6 @@
 # DEPENDENCIES
 # fabric-shim needs node ^18.0.0
-FROM node:18.20.1-bullseye AS build
+FROM golang:1.22.2-bullseye AS build
 
 RUN --mount=type=cache,sharing=locked,target=/var/cache/apt \
   export DEBIAN_FRONTEND=noninteractive \
@@ -14,10 +14,11 @@ COPY --chmod=0777 ./ .
 
 RUN git config --global user.email "hello@settlemint.com" && \
   git config --global user.name "SettleMint" && \
-  pushd ./src && \
-  go mod vendor && \
-  popd && \
-  rm -Rf Dockerfile .dockerignore .github
+  rm -Rf Dockerfile .dockerignore .github 
+
+# Install go dependencies
+WORKDIR /usecase/src
+RUN go mod vendor
 
 USER root
 
