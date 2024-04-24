@@ -14,6 +14,9 @@ COPY --chmod=0777 ./ .
 
 RUN git config --global user.email "hello@settlemint.com" && \
   git config --global user.name "SettleMint" && \
+  pushd ./src && \
+  go mod vendor && \
+  popd && \
   rm -Rf Dockerfile .dockerignore .github
 
 USER root
