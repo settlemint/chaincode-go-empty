@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/hyperledger/fabric-chaincode-go v0.0.0-20230731094759-d626e9ab09b9
 	github.com/hyperledger/fabric-contract-api-go v1.2.2
-	github.com/hyperledger/fabric-protos-go v0.3.0
+	github.com/hyperledger/fabric-protos-go v0.3.3
 	github.com/stretchr/testify v1.8.4
 	google.golang.org/protobuf v1.33.0
 )
