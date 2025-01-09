@@ -600,6 +600,8 @@ github.com/hyperledger/fabric-protos-go v0.3.3 h1:0nssqz8QWJNVNBVQz+IIfAd2j1ku7Q
 github.com/hyperledger/fabric-protos-go v0.3.3/go.mod h1:BPXse9gIOQwyAePQrwQVUcc44bTW4bB5V3tujuvyArk=
 github.com/hyperledger/fabric-protos-go v0.3.4 h1:z2xAd1QlsnZIakTWUzDsCAicP9BfrKWDOyjanz+vTBs=
 github.com/hyperledger/fabric-protos-go v0.3.4/go.mod h1:EICM4OYOLJNCczNKy3+xSz4ZTdYb9qi9ZfOzdUwszwU=
+github.com/hyperledger/fabric-protos-go v0.3.5 h1:RuqTxmtP29LBkBwxnGHU92trbgmmaRX82iiQbVQ8xOU=
+github.com/hyperledger/fabric-protos-go v0.3.5/go.mod h1:EICM4OYOLJNCczNKy3+xSz4ZTdYb9qi9ZfOzdUwszwU=
 github.com/iancoleman/strcase v0.2.0/go.mod h1:iwCmte+B7n89clKwxIoIXy/HfoL7AsD47ZCWhYzw7ho=
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
