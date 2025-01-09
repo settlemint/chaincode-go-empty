@@ -14,8 +14,7 @@
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
     "security:openssf-scorecard",
-    "schedule:nonOfficeHours",
-    ":disableDependencyDashboard"
+    "schedule:nonOfficeHours"
   ],
   "labels": ["dependencies"],
   "rebaseWhen": "conflicted",
