@@ -10,7 +10,7 @@ require (
 	github.com/hyperledger/fabric-contract-api-go/v2 v2.2.0
 	github.com/hyperledger/fabric-protos-go v0.3.5
 	github.com/stretchr/testify v1.10.0
-	google.golang.org/protobuf v1.36.2
+	google.golang.org/protobuf v1.36.3
 )
 
 require (
