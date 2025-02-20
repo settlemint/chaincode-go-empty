@@ -8,7 +8,7 @@ require (
 	github.com/hyperledger/fabric-chaincode-go v0.0.0-20230731094759-d626e9ab09b9
 	github.com/hyperledger/fabric-contract-api-go v1.2.2
 	github.com/hyperledger/fabric-contract-api-go/v2 v2.2.0
-	github.com/hyperledger/fabric-protos-go v0.3.6
+	github.com/hyperledger/fabric-protos-go v0.3.7
 	github.com/stretchr/testify v1.10.0
 	google.golang.org/protobuf v1.36.5
 )
