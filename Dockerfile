@@ -1,6 +1,6 @@
 # DEPENDENCIES
 # fabric-shim needs node ^18.0.0
-FROM golang:1.24.1-bullseye AS build
+FROM golang:1.24.2-bullseye AS build
 
 RUN --mount=type=cache,sharing=locked,target=/var/cache/apt \
   export DEBIAN_FRONTEND=noninteractive \
